@@ -1,0 +1,14 @@
+.sidenav {
+  border: 2px solid grey;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav.maximum-count {
+  background-color: red;
+}

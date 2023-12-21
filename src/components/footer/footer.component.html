@@ -1,0 +1,7 @@
+<div class="footer" [ngClass]="{ 'maximum-count': maximumReached }">
+  footer works!
+  <app-counter-btn
+    [screen]="screen"
+    (onMaximumClick)="onMaxumimClicked($event)"
+  ></app-counter-btn>
+</div>

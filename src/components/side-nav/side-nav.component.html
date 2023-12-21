@@ -1,0 +1,7 @@
+<div class="sidenav" [ngClass]="{ 'maximum-count': maximumReached }">
+  side-nav works!
+  <app-counter-btn
+    [screen]="screen"
+    (onMaximumClick)="onMaxumimClicked($event)"
+  ></app-counter-btn>
+</div>

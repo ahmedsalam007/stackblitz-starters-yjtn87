@@ -1,0 +1,7 @@
+export enum LAYOUTSCREENS {
+  HEADER = 'HEADER',
+  SIDE_NAV = 'SIDE_NAV',
+  CONTENT = 'CONTENT',
+  FOOTER = 'FOOTER',
+  NONE = '',
+}

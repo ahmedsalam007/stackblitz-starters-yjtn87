@@ -1,0 +1,13 @@
+<div class="content" [ngClass]="{ 'maximum-count': maximumReached }">
+  content works!
+
+  <app-counter-btn
+    [screen]="screen"
+    (onMaximumClick)="onMaxumimClicked($event)"
+  ></app-counter-btn>
+
+  <app-counter-btn
+    [screen]="screen"
+    (onMaximumClick)="onMaxumimClicked($event)"
+  ></app-counter-btn>
+</div>

@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  border: 2px solid grey;
+}
+
+.header.maximum-count {
+  background-color: red;
+}

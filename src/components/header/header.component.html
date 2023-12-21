@@ -1,0 +1,5 @@
+<div class="header" [ngClass]="{ 'maximum-count': maximumReached }">
+  Header! <br />
+  <app-counter-btn [screen]="screen"
+  (onMaximumClick)="onMaxumimClicked($event)"></app-counter-btn>
+</div>

@@ -1,0 +1,22 @@
+.layout-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'sidenav content content content content'
+    'footer footer footer footer footer';
+}
+
+app-header {
+  grid-area: header;
+}
+
+app-side-nav {
+  grid-area: sidenav;
+}
+
+app-content {
+  grid-area: content;
+}
+app-footer {
+  grid-area: footer;
+}
